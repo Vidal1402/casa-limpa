@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Sparkles, Droplet, Wrench, Baby, Heart, PenTool as Tool, Flower2 } from "lucide-react"
+import { Sparkles, Droplet, Wrench, Baby, Heart, PenTool as Tool, Flower2, Building2 } from "lucide-react"
 
 const services = [
   {
@@ -38,6 +38,11 @@ const services = [
     icon: Flower2,
     title: "Jardinagem",
     description: "Cuidado e manutenção do seu jardim com podas, plantios e paisagismo profissional.",
+  },
+  {
+    icon: Building2,
+    title: "Acompanhante de Hospital",
+    description: "Profissionais qualificados para acompanhar pacientes durante internação hospitalar com cuidado e atenção.",
   },
 ]
 
