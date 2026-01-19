@@ -22,8 +22,7 @@ export function HeroImageBanner() {
               </div>
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight mb-4">
-                <span className="block">CONFORTO</span>
-                <span className="block text-[#85e0ff]">ABSOLUTO</span>
+                Serviços de limpeza e <span className="text-[#85e0ff]">manutenção residencial</span>
               </h1>
               
               <p className="text-white/90 text-base md:text-lg lg:text-xl max-w-xl mx-auto lg:mx-0 mb-6">

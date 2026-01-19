@@ -8,6 +8,7 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { FaqSection } from "@/components/faq-section"
 import { CtaSection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
+import { FloatingWhatsApp } from "@/components/floating-whatsapp"
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <FaqSection />
       <CtaSection />
       <Footer />
+      <FloatingWhatsApp />
     </main>
   )
 }
