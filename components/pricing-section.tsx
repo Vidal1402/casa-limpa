@@ -8,14 +8,14 @@ import { Check, Star, Phone } from "lucide-react"
 const pricingPlans = [
   {
     name: "4h Básico",
-    price: "R$ 125,00",
+    price: "Sob consulta",
     description: "Sem passadeira",
     features: ["Faxina geral completa", "Limpeza de geladeira", "Lavar louça", "4 horas de serviço"],
     isPopular: false,
   },
   {
     name: "4h Completo",
-    price: "R$ 144,00",
+    price: "Sob consulta",
     description: "Com passadeira",
     features: ["Faxina geral completa", "Limpeza de geladeira", "Passar roupa", "Lavar louça", "4 horas de serviço"],
     isPopular: true,
