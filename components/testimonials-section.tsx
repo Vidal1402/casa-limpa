@@ -81,7 +81,25 @@ export function TestimonialsSection() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 space-y-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-6">
+            <div className="bg-gradient-to-br from-[#85e0ff]/10 to-[#0090c5]/10 rounded-lg p-4 border border-[#0090c5]/20">
+              <p className="text-3xl font-bold text-[#0090c5]">500+</p>
+              <p className="text-sm text-[#022f52]/70">Clientes Atendidos</p>
+            </div>
+            <div className="bg-gradient-to-br from-[#85e0ff]/10 to-[#0090c5]/10 rounded-lg p-4 border border-[#0090c5]/20">
+              <p className="text-3xl font-bold text-[#0090c5]">4.9</p>
+              <p className="text-sm text-[#022f52]/70">Avaliação Média</p>
+            </div>
+            <div className="bg-gradient-to-br from-[#85e0ff]/10 to-[#0090c5]/10 rounded-lg p-4 border border-[#0090c5]/20">
+              <p className="text-3xl font-bold text-[#0090c5]">98%</p>
+              <p className="text-sm text-[#022f52]/70">Taxa de Retorno</p>
+            </div>
+            <div className="bg-gradient-to-br from-[#85e0ff]/10 to-[#0090c5]/10 rounded-lg p-4 border border-[#0090c5]/20">
+              <p className="text-3xl font-bold text-[#0090c5]">24/7</p>
+              <p className="text-sm text-[#022f52]/70">Disponibilidade</p>
+            </div>
+          </div>
           <p className="text-sm text-gray-600">
             Mais de <span className="font-bold text-[#0090c5]">500 clientes satisfeitos</span> no Rio de Janeiro
           </p>

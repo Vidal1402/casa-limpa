@@ -80,14 +80,25 @@ export function PricingSection() {
               isVisible ? "animate-fade-in-up" : "opacity-0"
             }`}
           >
-            Pacotes e Preços
+            Pacotes e Preços{" "}
+            <span className="bg-gradient-to-r from-[#0090c5] to-[#85e0ff] bg-clip-text text-transparent">
+              Transparentes
+            </span>
           </h2>
           <p
             className={`text-lg text-[#022f52]/70 leading-relaxed ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
             style={{ animationDelay: "0.1s" }}
           >
-            Escolha o pacote ideal para suas necessidades. Preços transparentes e sem taxas ocultas.
+            Escolha o pacote ideal para suas necessidades. Preços justos e transparentes, sem taxas ocultas ou surpresas.
           </p>
+          <div
+            className={`mt-4 inline-flex items-center gap-2 bg-[#20c997]/10 border border-[#20c997] rounded-full px-4 py-2 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
+            style={{ animationDelay: "0.15s" }}
+          >
+            <span className="text-sm font-semibold text-[#022f52]">
+              💰 Preços justos • ⚡ Sem compromisso • ✓ Garantia total
+            </span>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
@@ -128,14 +139,14 @@ export function PricingSection() {
 
                 <Button
                   onClick={() => handleWhatsAppClick(plan.name)}
-                  className={`w-full transition-all duration-300 hover:scale-105 ${
+                  className={`w-full transition-all duration-300 hover:scale-105 font-bold ${
                     plan.isPopular
-                      ? "bg-[#0090c5] hover:bg-[#022f52] text-white shadow-md"
+                      ? "bg-[#20c997] hover:bg-[#1baa80] text-white shadow-lg animate-pulse"
                       : "bg-[#022f52] hover:bg-[#0090c5] text-white"
                   }`}
                 >
                   <Phone className="w-4 h-4 mr-2" />
-                  Contratar Agora
+                  {plan.isPopular ? "CONTRATAR AGORA" : "Contratar Agora"}
                 </Button>
               </CardContent>
             </Card>
