@@ -76,25 +76,15 @@ export function ServicesSection() {
             }`}
           >
             Nossos{" "}
-            <span className="bg-gradient-to-r from-[#0090c5] to-[#85e0ff] bg-clip-text text-transparent">
-              Serviços Completos
-            </span>
+            <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Serviços</span>
           </h2>
           <p
             className={`text-lg text-[#022f52]/70 leading-relaxed ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
             style={{ animationDelay: "0.1s" }}
           >
-            Oferecemos uma ampla gama de serviços domésticos profissionais para facilitar sua vida e cuidar do que é
-            mais importante para você.
+            Oferecemos uma ampla gama de serviços domésticos para facilitar sua vida e cuidar do que é mais importante
+            para você.
           </p>
-          <div
-            className={`mt-4 inline-flex items-center gap-2 bg-[#0090c5]/10 border border-[#0090c5] rounded-full px-4 py-2 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
-            style={{ animationDelay: "0.15s" }}
-          >
-            <span className="text-sm font-semibold text-[#022f52]">
-              ✓ 7 tipos de serviços • ⚡ Atendimento imediato • 💯 Garantia total
-            </span>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 md:gap-10">
@@ -111,38 +101,9 @@ export function ServicesSection() {
                 />
               </div>
               <h3 className="text-xl font-bold text-[#022f52] mb-2">{service.title}</h3>
-              <p className="text-[#022f52]/70 leading-relaxed mb-4">{service.description}</p>
-              <a
-                href="https://wa.me/5521979750896?text=Olá! Gostaria de saber mais sobre os serviços da Casa Limpa."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block text-sm font-semibold text-[#0090c5] hover:text-[#022f52] transition-colors group-hover:underline"
-              >
-                Saber mais →
-              </a>
+              <p className="text-[#022f52]/70 leading-relaxed">{service.description}</p>
             </div>
           ))}
-        </div>
-
-        {/* CTA adicional na seção de serviços */}
-        <div
-          className={`max-w-2xl mx-auto mt-12 text-center ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
-          style={{ animationDelay: "0.9s" }}
-        >
-          <div className="bg-gradient-to-r from-[#0090c5] to-[#85e0ff] rounded-xl p-6 text-white shadow-lg">
-            <p className="text-lg font-bold mb-2">Pronto para contratar nossos serviços?</p>
-            <p className="text-sm text-white/90 mb-4">
-              Entre em contato agora e garante seu agendamento para esta semana!
-            </p>
-            <a
-              href="https://wa.me/5521979750896?text=Olá! Quero contratar os serviços da Casa Limpa."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-white text-[#0090c5] font-bold px-6 py-3 rounded-full hover:bg-[#85e0ff] hover:text-[#022f52] transition-all duration-300 hover:scale-105 shadow-md"
-            >
-              Falar no WhatsApp Agora
-            </a>
-          </div>
         </div>
       </div>
     </section>

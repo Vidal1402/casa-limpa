@@ -5,11 +5,9 @@ import { ServicesSection } from "@/components/services-section"
 import { PricingSection } from "@/components/pricing-section"
 import { BenefitsSection } from "@/components/benefits-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
-import { GuaranteeSection } from "@/components/guarantee-section"
 import { FaqSection } from "@/components/faq-section"
 import { CtaSection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
-import { FloatingWhatsApp } from "@/components/floating-whatsapp"
 
 export default function Home() {
   return (
@@ -20,12 +18,10 @@ export default function Home() {
       <ServicesSection />
       <PricingSection />
       <BenefitsSection />
-      <GuaranteeSection />
       <TestimonialsSection />
       <FaqSection />
       <CtaSection />
       <Footer />
-      <FloatingWhatsApp />
     </main>
   )
 }
