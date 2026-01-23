@@ -41,8 +41,11 @@ export function Footer() {
               <li>Faxina Completa</li>
               <li>Limpeza de Caixa d{"'"}Água</li>
               <li>Marido de Aluguel</li>
+              <li>Serralheiro</li>
               <li>Babá</li>
               <li>Cuidador de Idoso</li>
+              <li>Jardinagem</li>
+              <li>Acompanhante de Hospital</li>
             </ul>
           </div>
         </div>
